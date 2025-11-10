@@ -35,6 +35,6 @@ git checkout main_conflictmerge
 git rebase feature_conflictmerge
 ```
 
-
+With `--ours` you go in target branch (`main_conflictmerge`), with `--theirs` the other (`feature_conflictmerge`).
 
 
