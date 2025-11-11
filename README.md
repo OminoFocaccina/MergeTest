@@ -30,9 +30,9 @@ git checkout feature_conflictmerge
 git rebase main_conflictmerge
 git checkout --ours .
 git add game.py
-git rease --continue
+git rebase --continue
 git checkout main_conflictmerge
-git rebase feature_conflictmerge
+git merge feature_conflictmerge
 ```
 
 With `--ours` you go in target branch (`main_conflictmerge`), with `--theirs` the other (`feature_conflictmerge`).
