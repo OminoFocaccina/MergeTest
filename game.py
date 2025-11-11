@@ -18,6 +18,7 @@ def gioca():
                 continue
         except ValueError:
             print("Devi inserire un numero intero!")
+            print("Se non inserirsci il numero intero ti mandiamo la finanza a casa")
             continue
 
         usati += 1
