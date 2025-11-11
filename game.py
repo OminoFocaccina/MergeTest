@@ -45,6 +45,6 @@ if __name__ == "__main__":
     while True:
         gioca()
         if input("Vuoi rigiocare? (s/n): ").strip().lower() != "s":
-            print("Alla prossima!")
+            print("Alla prossima! Ciao!")
             break
 
