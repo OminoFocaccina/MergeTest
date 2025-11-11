@@ -2,7 +2,8 @@
 import random
 
 def gioca():
-    print("🎯 Indovina il numero tra 1 e 100!")
+    print("Indovina il numero tra 1 e 100!")
+    print("Dai prova!")
     difficolta = {"facile": 10, "medio": 7, "difficile": 5}
     scelta = input("Scegli difficoltà (facile/medio/difficile) [medio]: ").strip().lower() or "medio"
     tentativi = difficolta.get(scelta, 7)
