@@ -14,8 +14,19 @@ You will find 9 branches:
 You can:
 ## easymerge
 Merge `main_easymerge` and `feature_easymerge`, to see how a merge without rebase and without any new commit in the main (in this case `main_easymerge`) is.
+```bash
+git checkout main_easymerge
+git merge feature_easymerge
+```
+
 ## noreabasemerge
 Merge `main_noreabasemerge` and `feature_norebasemerge`, to see how a merge without rebase and with a new commit in the main (in this case `main_noreabasemerge`) is.
+
+```bash
+git checkout main_noreabasemerge
+git merge feature_norebasemerge
+```
+
 ## reabasemerge
 From `main_reabasemerge`:
 ```bash
